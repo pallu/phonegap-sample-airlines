@@ -1,0 +1,86 @@
+<div id="ero" data-role="page">
+			<div data-role="header" data-position="fixed"  data-tap-toggle="false">
+				<h1>ERO</h1>
+				<a href="#checkIn" data-role="button" id="backButton" data-transition="flip" class="ui-btn-right" data-rel="back">Done</a>
+			</div>
+			<div data-role="content">
+                <div data-role="controlgroup" data-type="horizontal" data-mini="true">
+                <a href="index.html" data-role="button">1</a>
+                <a href="index.html" data-role="button">2</a>
+                <a href="index.html" data-role="button">3</a>
+                <a href="index.html" data-role="button">4</a>
+                </div>
+                <form>
+				<ul data-role="listview" id="eroStep1" data-inset="true" data-theme="d">
+                    <li>
+                        <div class="ui-field-contain">
+                            <label for="TacticID">Tactic:</label>
+                            <select name="TacticID" id="TacticID">
+                                <option value="100">First Tactic</option>
+                                        <option value="102">Second Tactic</option>
+                                        <option value="103">Third Tactic</option>
+                                        <option value="104">Fourth Tactic</option>
+                            </select>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="ui-field-contain">
+                            <label for="TitleID">Title:</label>
+                            <select name="TitleID" id="TitleID">
+                                <option value="100">First Title</option>
+                                    <option value="102">Second Title</option>
+                                    <option value="103">Third Title</option>
+                                    <option value="104">Fourth Title</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ui-field-contain">
+                            <label for="CurriculumID">Curriculum / Module:</label>
+                            <select name="CurriculumID" id="CurriculumID">
+                                <option value="100">First Curriculum</option>
+                                    <option value="102">Second Curriculum</option>
+                                    <option value="103">Third Curriculum</option>
+                                    <option value="104">Fourth Curriculum</option>
+                            </select>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="ui-field-contain">
+                            <label for="AddModuleID">Additional Modules:</label>
+                            <select name="AddModuleID" id="AddModuleID">
+                                <option value="100">First Curriculum</option>
+                                    <option value="102">Second Curriculum</option>
+                                    <option value="103">Third Curriculum</option>
+                                    <option value="104">Fourth Curriculum</option>
+                            </select>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="ui-field-contain">
+                            <label for="AddModuleID">Additional Modules:</label>
+                            <div data-role="controlgroup" data-type="vertical">
+                                <input type="radio" name="eventTypeID" id="radio-choice-h-2a" value="on" checked="checked">
+                                <label for="radio-choice-h-2a">Live Program</label>
+                                <input type="radio" name="eventTypeID" id="radio-choice-h-2b" value="off">
+                                <label for="radio-choice-h-2b">Webcast Program</label>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+                <ul data-role="listview" id="eroStep2" data-inset="true" data-theme="d" style="display:none">
+                    <li>test2</li>
+                </ul>
+                <ul data-role="listview" id="eroStep3" data-inset="true" data-theme="d" style="display:none">
+                    <li>test3</li>
+                </ul>
+                <ul data-role="listview" id="eroStep4" data-inset="true" data-theme="d" style="display:none">
+                    <li>test 4</li>
+                </ul>
+                </form>
+			</div>
+		</div>
